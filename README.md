@@ -1,2 +1,29 @@
-# Titanic-Machine-Learning
-Start here if you're new to data science or looking for a simple intro to the Kaggle prediction competitions. This repository contains a practice problem from Kaggle named Titanic: Machine Learning from Disaster. Your goal to identify what sort of people were likely to survive the disaster.
+### Business Problem/Objective
+
+The sinking of the RMS Titanic is one of the most infamous shipwrecks in history.  On April 15, 1912, during her maiden voyage, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers and crew. This sensational tragedy shocked the international community and led to better safety regulations for ships.
+One of the reasons that the shipwreck led to such loss of life was that there were not enough lifeboats for the passengers and crew. Although there was some element of luck involved in surviving the sinking, some groups of people were more likely to survive than others, such as women, children, and the upper-class.
+In this challenge, we ask you to complete the analysis of what sorts of people were likely to survive. In particular, we ask you to apply the tools of machine learning to predict which passengers survived the tragedy.
+
+This problem is a famous problem on Kaggle for beginner machine learning enthusiasts.
+
+The youtube link associated with problem description is given here: https://youtu.be/9xoqXVjBEF8
+
+### Evaluation Metric
+It is your job to predict if a passenger survived the sinking of the Titanic or not. 
+For each in the test set, you must predict a 0 or 1 value for the variable.
+
+Your score is the percentage of passengers you correctly predict. This is known simply as "accuracy”.
+
+### Submission File Format
+You should submit a csv file with exactly 418 entries plus a header row. Your submission will show an error if you have extra columns (beyond PassengerId and Survived) or rows.
+
+The file should have exactly 2 columns:
+
+- PassengerId (sorted in any order)
+- Survived (contains your binary predictions: 1 for survived, 0 for deceased)
+
+### Final Score
+The below code scores 0.822 in the leaderboard which lands you in the top 5% of the competitors.
+
+### Practice Skills
+The idea of this repository is to provide you with various data exploration,visualizations involved before applying a machine learning algorithm (Binary classification in this case) on your data. Understanding data via data exploration techniques helps you to find hidden patterns within data which can be leveraged by your ML model.
